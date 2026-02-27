@@ -25,3 +25,39 @@ a {
 a:hover {
     text-decoration: underline;
 }
+header {
+    height: 110px;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header img {
+    width: 250px;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: #e6a563;
+}
